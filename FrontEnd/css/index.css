@@ -72,7 +72,7 @@ html{
 #header{
     text-align: center;
     position: fixed;
-    width:100%;
+    width:101%;
     left: 0px;
     background-color: white;
     z-index: 3;
@@ -298,7 +298,7 @@ html{
 }
 
 #quest1{
-   padding-top: 9%;
+   padding-top: 10%;
 }
 
 #quest{
@@ -359,14 +359,14 @@ html{
 #footer{
     position: absolute;
     left: 0px;
-    width: 100%;
+    width: 101%;
     background-color: #4A467D;
 }
 
 #rodapeMobile{
     display: none;
     margin-left: 7%;
-    width: 100%;
+    width: 101%;
 }
 
 
@@ -374,7 +374,7 @@ html{
     #header{
         z-index: 3;
         text-align: left;
-        width: 100%;
+        width: 105%;
     }
 
     #tampa{
@@ -752,7 +752,7 @@ html{
     #footer{
         position: absolute;
         left: 0px;
-        width: 100%;
+        width: 105%;
     }   
     
     #rodape{
@@ -760,8 +760,8 @@ html{
     }
 
     #rodapeMobile{
-        display: block;
-        margin-left: 7%;
+        display: inline;
+        margin-left: 0%;
         width: 100%;
     }
 }
@@ -770,7 +770,7 @@ html{
     #header{
         z-index: 3;
         text-align: left;
-        width: 100%;
+        width: 103%;
     }
 
     #tampa{
@@ -882,7 +882,7 @@ html{
     
     #botaoMenu{
         width: 50%;
-        margin-top: 10%;
+        margin-top: 5%;
         margin-bottom: 10%;
         margin-left: 25%;
     }
@@ -890,7 +890,7 @@ html{
     #abreMenu{
         display: inline;
         position: absolute;
-        width: 10%;
+        width: 7%;
         right: 5%;
         top:40px;
     }
@@ -1148,15 +1148,15 @@ html{
     #footer{
         position: absolute;
         left: 0px;
-        width: 100%;
+        width: 103%;
     }   
     
     #rodape{
-        display: none;
+        display: block;
     }
 
     #rodapeMobile{
-        display: block;
+        display: none;
         margin-left: 7%;
         width: 100%;
     } 
