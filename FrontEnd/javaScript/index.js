@@ -28,21 +28,39 @@ function fecharQuest3(){
 }
 
 function abreQuest1(){
-    document.getElementById('textQuest1').style.display = "block";
-    document.getElementById('setaBaixo1').style.display = "block";
-    document.getElementById('seta1').style.display = "none";
+    if(document.getElementById('textQuest1').style.display == "block")
+    {
+        fecharQuest1();
+    }
+    else{
+        document.getElementById('textQuest1').style.display = "block";
+        document.getElementById('setaBaixo1').style.display = "block";
+        document.getElementById('seta1').style.display = "none";
+    }
 }
 
 function abreQuest2(){
-    document.getElementById('textQuest2').style.display = "block";
-    document.getElementById('setaBaixo2').style.display = "block";
-    document.getElementById('seta2').style.display = "none";
+    if(document.getElementById('textQuest2').style.display == "block")
+    {
+        fecharQuest2();
+    }
+    else{
+        document.getElementById('textQuest2').style.display = "block";
+        document.getElementById('setaBaixo2').style.display = "block";
+        document.getElementById('seta2').style.display = "none";
+    }
 }
 
 function abreQuest3(){
-    document.getElementById('textQuest3').style.display = "block";
-    document.getElementById('setaBaixo3').style.display = "block";
-    document.getElementById('seta3').style.display = "none";
+    if(document.getElementById('textQuest3').style.display == "block")
+    {
+        fecharQuest3();
+    }
+    else{
+        document.getElementById('textQuest3').style.display = "block";
+        document.getElementById('setaBaixo3').style.display = "block";
+        document.getElementById('seta3').style.display = "none";
+    }
 }
 
 function abreMenu(){

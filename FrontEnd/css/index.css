@@ -138,7 +138,7 @@ html{
 
 #sobreMim1
 {
-    background-color: #F6F5FF;
+    background-image: linear-gradient(to bottom, #F6F5FF, #F6F5FF,#F6F5FF, white) ;
     height: 800px;
 }
 
@@ -191,6 +191,7 @@ html{
     top:28%;
     width: 33%;
 }
+
 
 #sobreMim2{
     background-color: #ffffff;
