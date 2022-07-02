@@ -443,7 +443,7 @@ html{
     }
     
     #logoMenu{
-        width: 15%;
+        width: 20%;
         margin-left: 7%;
         margin-right: 0%;
         margin-top: 5%;
@@ -484,9 +484,10 @@ html{
     }
     
     #botaoMenu{
+        width: 50%;
         margin-top: 10%;
         margin-bottom: 10%;
-        margin-left: 15%;
+        margin-left: 25%;
     }
 
     #abreMenu{
@@ -494,7 +495,7 @@ html{
         position: absolute;
         width: 10%;
         right: 5%;
-        top:30px;
+        top:35%;
     }
 
     #sobreMim1
@@ -512,9 +513,9 @@ html{
     }
 
     #escritosMain{
-        margin-left: 0%;
+        margin-left: 5%;
         margin-top: 5%;
-        width: 95%;
+        width: 90%;
     }
 
     #sobreMimTitulo{
@@ -555,6 +556,10 @@ html{
         transition: all 1s linear;
         margin-left: 7%;
         width: 60%;
+    }
+
+    #botaoSaberMais{
+        margin-bottom: 20%;
     }
 
     #sobreMim2{
@@ -645,8 +650,8 @@ html{
     
     #psicologiaViva{
         position: static !important;
-        margin-left: 0%;
-        width: 100%;
+        margin-left: 5%;
+        width: 90%;
         margin-top: 10%;
     }
     
