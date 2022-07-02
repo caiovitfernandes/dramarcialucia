@@ -1,0 +1,653 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#tampa{
+    background-color:rgba(255, 236, 245, 0.582); 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    left: 0px;
+    display: none;
+}
+
+#entreEmContato
+{
+    position: fixed;
+    background-color: white;
+    width: 26%;
+    left: 35%;
+    top: 22%;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.103);
+    border-radius: 10%;
+}
+
+#x{
+    width: 7%;
+    margin-left: 80%;
+    margin-top: 5%;
+}
+
+#x:hover{
+    background-color: #F6F5FF;
+}
+
+.entreEmContatoImg
+{
+    width: 50%;
+    padding: 10%;
+}
+
+.entreEmContatoImg:hover{
+    background-color: #F6F5FF;
+}
+
+#tituloEntreEmContato{
+    font-family:  Century Gothic;
+    font-size: 200%;
+    width: 95%;
+    margin-left: 5%;
+}
+
+.agendarConsulta{
+    display: block;
+    margin: 0%;
+}
+
+#whatsappImg{
+    position: fixed;
+    z-index: 1;
+    left: 92%;
+    top: 85%;
+    width: 4%;
+}
+
+#whatsappImg:hover{
+    opacity: 0.8;
+    width: 4.2%;
+}
+
+#header{
+    text-align: center;
+    position: fixed;
+    width:100%;
+    left: 0px;
+    background-color: white;
+    z-index: 3;
+    box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.192);
+}
+
+#menu{
+    margin-top: 4%;
+}
+
+#logoMenu{
+    width: 70%;
+    margin-left: 25%;
+    margin-right: 0%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+.escritosMenu{
+    text-decoration: none;
+    font-family:  Century Gothic;
+    font-size: 150%;
+    margin-left: 8%;
+    padding: 0%;
+    color:black;
+}
+
+.escritosMenu:hover{
+    color: #e90074;
+}
+
+.botao{
+    background-color: #4A467D;
+    color: white;
+    font-family:  Century Gothic;
+    font-size: 150%;
+    border: none;
+    border-radius: 50px;
+    padding: 1%;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.192);
+}
+
+.botao:hover{
+    transition: all 0.1s linear ;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.192);
+    background-color: #7167fd;
+}
+
+#botaoMenu{
+    margin-left: 8%;
+}
+
+
+#sobreMim1
+{
+    background-color: #F6F5FF;
+    height: 800px;
+}
+
+#logoEscrita
+{
+    margin-top: 25%;
+    margin-left: 21%;
+}
+
+#escritosMain{
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+#sobreMimTitulo{
+    font-family:  Century Gothic;
+    font-size: 220%;
+    font-weight: normal;
+    display: inline;
+}
+
+#sobreMimTexto{
+    font-family:  Bahnschrift;
+    font-size: 125%;
+    font-weight: normal;
+    display: inline;
+}
+
+#saberMais{
+    margin-left: 35%;
+    margin-top: 3%;
+}
+
+#saberMaisH1{
+    font-family:  Bahnschrift;
+    font-size: 240%;
+    font-weight: normal;
+    margin-left: 1%;
+}
+
+#logoSemNome{
+    margin-top: 15%;
+    margin-left: 10%;
+    width: 30%;
+}
+
+#logoSemNome:hover{
+    transition: all 1s linear;
+    margin-top: 13%;
+    width: 33%;
+}
+
+#sobreMim2{
+    background-color: #ffffff;
+}
+
+#fotoMarcia{
+    width: 40%;
+    margin-left: 9%;
+    margin-top: 10%;
+}
+
+#oval
+{
+    background-color: #F6F5FF;
+}
+
+#tituloOval{
+    font-family: Century Gothic;
+    font-size: 300%;
+    margin-left: 14%;
+    margin-top: 20%;
+    font-weight: normal;
+}
+
+#ovalTexto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 155%;
+    width: 70%;
+    margin-left: 14%;
+    font-weight: normal;
+    line-height: 150%;
+}
+
+#sobreMim3{
+    background-color: #F6F5FF;
+}
+
+#insta1{
+    width: 39.5%;
+    margin-left: 7.3%;
+}
+
+#insta1:hover{
+    transition: all 0.5s linear;
+    opacity: 0.1;
+}
+
+#insta2{
+    width: 42%;
+}
+
+#insta2:hover{
+    transition: all 0.5s linear;
+    opacity: 0.1;
+}
+
+#insta1Hover{
+    width: 80%;
+    margin-left: 15%;
+}
+
+#insta2Hover{
+    width: 85.5%;
+}
+
+#sobreMim4{
+    background-color: #ffffff;
+}
+
+#feedbacks{
+    font-family: Century Gothic;
+    font-size: 200%;
+    margin-left: 8%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+#psicologiaViva{
+    margin-left: 7.4%;
+    width: 30%;
+}
+
+#psicologiaViva:hover{
+    transition: all 0.5s linear;
+    opacity: 0.1;
+}
+
+#psicologiaVivaHover{
+    margin-left: 15%;
+    width: 61%;
+}
+
+#zenklub{
+    width: 41%;
+}
+
+#zenklub:hover{
+    transition: all 0.5s linear;
+    opacity: 0.1;
+}
+
+#zenklubHover{
+    width: 83%;
+}
+
+#quest1{
+   padding-top: 9%;
+}
+
+#quest{
+    margin-top: 3%;
+    padding-bottom: 2.5%;
+    padding-left: 8%;
+    border-bottom: 1px solid rgb(186, 186, 186);
+}
+
+.textQuest{
+    display: none;
+    font-family: Century Gothic;
+}
+
+#setaBaixo1{
+    display: none;
+    width: 1.8%;
+    right: 5%;
+    margin-top: 0.2%;
+}
+
+#setaBaixo2{
+    display: none;
+    width: 1.8%;
+    right: 5%;
+    margin-top: 0.2%;
+}
+
+#setaBaixo3{
+    display: none;
+    width: 1.8%;
+    right: 5%;
+    margin-top: 0.2%;
+}
+
+
+.tituloQuest{
+    font-family: EngraversGothic BT;
+    font-size: 150%;
+}
+
+#outrasDuvidas{
+    margin-top: 3%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    border-bottom: 1px solid rgb(186, 186, 186);
+}
+
+.seta{
+    width: 20%;
+}
+
+#botaoQuest{
+    margin-left: 15%;
+    margin-bottom: 1%;
+}
+
+#footer{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    background-color: #4A467D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*html{
+    scroll-behavior: smooth;
+}
+
+header{
+    background-color: white;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    height: 20%;
+    box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.192);
+}
+
+#logoMenu{
+    width: 10%;
+    margin-left: 5%;
+    margin-right: 0%;
+    margin-top: 1.5%;
+}
+
+#menu{
+    position: fixed;
+    top: 6%;
+    left: 20%;
+    width: 100%;
+}
+
+.escritosMenu{
+    text-decoration: none;
+    font-family:  Century Gothic;
+    font-size: 200%;
+    margin-left: 6%;
+    padding: 0%;
+    color:black;
+}
+
+.escritosMenu:hover{
+    color: #e90074;
+}
+
+.botao{
+    background-color: #4A467D;
+    color: white;
+    font-family:  Century Gothic;
+    font-size: 200%;
+    border: none;
+    border-radius: 50px;
+    padding: 1%;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.192);
+}
+
+.botao:hover{
+    transition: all 0.1s linear ;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.192);
+    background-color: #7167fd;
+}
+
+#botaoMenu{
+    margin-left: 6%;
+}
+
+main
+{
+    width: 100%;
+    margin: 0px;
+}
+
+#tampa{
+    background-color:rgba(255, 236, 245, 0.582); 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    left: 0px;
+    display: none;
+}
+
+#entreEmContato
+{
+    position: fixed;
+    background-color: white;
+    width: 26%;
+    left: 35%;
+    top: 22%;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.103);
+    border-radius: 10%;
+}
+
+#x{
+    width: 7%;
+    margin-left: 80%;
+    margin-top: 5%;
+}
+
+#x:hover{
+    background-color: #F6F5FF;
+}
+
+.entreEmContatoImg
+{
+    width: 50%;
+    padding: 10%;
+}
+
+.entreEmContatoImg:hover{
+    background-color: #F6F5FF;
+}
+
+#tituloEntreEmContato{
+    font-family:  Century Gothic;
+    font-size: 200%;
+    width: 95%;
+    margin-left: 5%;
+}
+
+.agendarConsulta{
+    display: block;
+    margin: 0%;
+}
+
+.paginas{
+    margin-left: 0px;
+    width: 100%;
+}
+
+#whatsappImg{
+    position: fixed;
+    z-index: 1;
+    left: 92%;
+    top: 85%;
+    width: 4%;
+}
+
+#whatsappImg:hover{
+    opacity: 0.8;
+    width: 4.2%;
+}
+
+footer{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    margin: 0px;
+}
+
+#sobreMim1
+{
+    margin-top: 10%;
+    background-color: #F6F5FF;
+    height: 800px;
+}
+
+#logoEscrita
+{
+    margin-top: 4%;
+    margin-left: 13%;
+    width: 25%;
+}
+
+#escritosMain{
+    margin-left: 3%;
+    width: 45%;
+    margin-top: 2%;
+}
+
+#sobreMimTitulo{
+    font-family:  Century Gothic;
+    font-size: 300%;
+    font-weight: normal;
+    display: inline;
+}
+
+#sobreMimTexto{
+    font-family:  Bahnschrift;
+    font-size: 165%;
+    font-weight: normal;
+    display: inline;
+}
+
+#saberMais{
+    margin-left: 12%;
+}
+
+#saberMaisH1{
+    font-family:  Bahnschrift;
+    font-size: 300%;
+    font-weight: normal;
+    margin-left: 2%;
+}
+
+#logoSemNome{
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    width: 30%;
+}
+
+#logoSemNome:hover{
+    transition: all 1s linear;
+    top: 30%;
+    width: 35%;
+}
+
+#sobreMim2{
+    background-color: #ffffff;
+}
+
+#fotoMarcia{
+    margin-top: 5%;
+    margin-left: 3%;
+    width: 32%;
+    padding-top: 7%;
+}
+
+#oval
+{
+    position: absolute;
+    background-color: #F6F5FF;
+    right: 10px;
+    top:950px;
+    width: 945px;
+    height: 800px;
+    padding-top: 7%;
+}
+
+#tituloOval{
+    font-family: Century Gothic;
+    font-size: 300%;
+    margin-left: 14%;
+    margin-top: 20%;
+    font-weight: normal;
+}
+
+#ovalTexto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 155%;
+    width: 70%;
+    margin-left: 14%;
+    font-weight: normal;
+    line-height: 150%;
+}
+
+#sobreMim3{
+    background-color: #F6F5FF;
+}
+
+#insta1{
+    position: absolute;
+    left:0.4%;
+}
+
+#insta1:hover{
+    opacity: 0.1;
+}
+
+#insta2{
+    position: absolute; 
+    left: 905px;
+    top:1892px;
+}
+
+#insta2:hover{
+    opacity: 0.1;
+}
+*/
+
+
