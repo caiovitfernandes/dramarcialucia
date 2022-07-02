@@ -16,13 +16,22 @@
             <div  class="container">
                     <div class="row" id="header">
                         <div class="col-sm-6 col-lg-2"><a href="#"><img src="/dramarcialucia/FrontEnd/imagens/logo.png" id="logoMenu"></a></div>
+
+                        <img id="abreMenu" class="col-sm-1" src="/dramarcialucia/FrontEnd/imagens/menu.png" onclick="abreMenu()">
                         
                         <div  class="col-sm-12 col-lg-10">
                             <nav id="menu">
-                                <a href="#sobreMim2" class="escritosMenu">Sobre mim</a>
-                                <a href="#terapia" class="escritosMenu">Sobre a terapia</a>
-                                <a href="#footer" class="escritosMenu">Contatos</a>
-                                <button class="botao" id="botaoMenu" onclick="abreContatos()">Agende uma consulta</button>
+                                <a href="#sobreMim2" class="escritosMenu" onclick="sobreMim()">Sobre mim</a>
+                                <a href="#terapia" class="escritosMenu" onclick="terapia()">Sobre a terapia</a>
+                                <a href="#footer" class="escritosMenu" onclick="fechaMenu()">Contatos</a>
+                                <button class="botao" id="botaoMenu" onclick="abreContatos()" onclick="fechaMenu()">Agende uma consulta</button>
+                            </nav>
+
+                            <nav id="menuMobile">
+                                <a href="#sobreMim2" class="escritosMenu" onclick="sobreMim()">Sobre mim</a>
+                                <a href="#terapia" class="escritosMenu" onclick="terapia()">Sobre a terapia</a>
+                                <a href="#footer" class="escritosMenu" onclick="fechaMenu()">Contatos</a>
+                                <button class="botao" id="botaoMenu" onclick="abreContatos()" onclick="fechaMenu()">Agende uma consulta</button>
                             </nav>
                         </div>
                     </div>
@@ -53,12 +62,13 @@
                                 <h4 id="sobreMimTexto">Especialidades: depressão, ansiedade, síndrome do pânico, angústia, autoestima e outros.</h4>
                             </div>
 
+                            <img src="/dramarcialucia/FrontEnd/imagens/logoSemNome.png" id="logoSemNome" class="col-sm-12 col-lg-6">
+
                             <div id="saberMais">
                                 <h1 id="saberMaisH1">Quer saber mais?</h1>
-                                <button class="botao" onclick="abreContatos()">Entre em contato comigo</button>
+                                <button id="botaoSaberMais" class="botao" onclick="abreContatos()">Entre em contato comigo</button>
                             </div>
                         </div>
-                        <img src="/dramarcialucia/FrontEnd/imagens/logoSemNome.png" id="logoSemNome" class="col-sm-12 col-lg-6">
                     </div>
                 </div>
 
@@ -157,7 +167,10 @@
         </main>
 
         <footer class="container">
-            <div class="row" id="footer"><img src="/dramarcialucia/FrontEnd/imagens/rodape.png" id="rodape"  class="col-sm-12 col-lg-12"></div>
+            <div class="row" id="footer">
+                <img src="/dramarcialucia/FrontEnd/imagens/rodape.png" id="rodape"  class="col-sm-12 col-lg-12">
+                <img src="/dramarcialucia/FrontEnd/imagens/rodapeMobile.png" id="rodapeMobile" class="col-sm-12 col-lg-12">
+            </div>
         </footer>
 
         <script src="/dramarcialucia/FrontEnd/javaScript/index.js"></script>
