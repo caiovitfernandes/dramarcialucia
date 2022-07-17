@@ -605,8 +605,8 @@ html{
     #insta1{
         position: static !important;
         margin-top: 30%;
+        margin-left: 1%;
         width: 100%;
-        margin-left: 0%;
     }
     
     #insta1:hover{
@@ -671,6 +671,7 @@ html{
         margin-top: 10%;
         position: static !important;
         width: 100%;
+        margin-left: 0.1%;
     }
     
     #zenklub:hover{
@@ -1001,6 +1002,7 @@ html{
     #insta1{
         position: static !important;
         margin-top: 30%;
+        margin-left: 5%;
         width: 100%;
         margin-left: 0%;
     }
